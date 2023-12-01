@@ -1,0 +1,25 @@
+parent_folder,filename,cell,text
+mirage_nades,mirage_nades/god_spot.png,12-4,Deny A plant from CT
+mirage_nades,mirage_nades/god_lineup.png,12-4,Top of Steeple
+mirage_nades,mirage_nades/mollyplantfromcat_spot.png,6-7,Deny A defuse from cat
+mirage_nades,mirage_nades/mollyplantfromcat_lineup.png,6-7,Jump throw from bottom of shadow
+mirage_nades,mirage_nades/mollyplantB_spot.png,3-5, Deny B default defuse from apts
+mirage_nades,mirage_nades/mollyplantB_lineup.png,3-5, Left click throw at top of green tarp
+mirage_nades,mirage_nades/tspawntrashcorner.png,5-13, Smoke Window
+mirage_nades,mirage_nades/windowfromtrash.png,5-13, Hold D for 0.5s and Jump Throw
+mirage_nades,mirage_nades/tspawntrashcorner.png,5-13, Smoke Conn
+mirage_nades,mirage_nades/smokeconnfromtrash.png,5-13, Jump Throw
+mirage_nades,mirage_nades/topmidbox.png,7-10, Smoke Window
+mirage_nades,mirage_nades/resmokemidwindowfrombox.png,7-10, Throw
+mirage_nades,mirage_nades/topmixboxleft.png,7-10,Smoke Cat
+mirage_nades,mirage_nades/resmokecatfromtopmixboxleft.png,7-10,Throw
+mirage_nades,mirage_nades/topmixboxleft.png,7-10,Smoke Jungle
+mirage_nades,mirage_nades/smokejunglefrommidboxleft.png,7-10,Throw
+mirage_nades,mirage_nades/topmixboxleft.png,7-10,Smoke CT
+mirage_nades,mirage_nades/smokectfrommidxboxleft.png,7-10,Throw
+mirage_nades,mirage_nades/ticketfromaramp_spot.png,8-12,Smoke CT
+mirage_nades,mirage_nades/ticketfromaramp_lineup.png,8-12,Jump Throw from center of beam
+mirage_nades,mirage_nades/smokestairsfromledge_spot.png,9-11,Smoke Stairs
+mirage_nades,mirage_nades/smokestairsfromledge_lineup.png,9-11,Jump Throw from T-Roof
+mirage_nades,mirage_nades/smokestairsfromledge_spot.png,9-11,Smoke Jungle
+mirage_nades,mirage_nades/smokejuglefromtroof_lineup.png,9-11, Throw from T-Roof

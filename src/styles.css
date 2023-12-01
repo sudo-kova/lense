@@ -1,0 +1,231 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #080808;
+    color: #fff;
+    z-index: 1000;  /* ensure header is always on top */
+    height: 4vh;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+/* Ensure the body and HTML fit the viewport height */
+html, body {
+    height: 100%;
+    overflow: hidden; /* Disable scrolling for the entire page */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;  /* prevent vertical scrolling */
+    background-color: #0e0e0e;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-icons, .right-icons {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px; /* Hide the sidebar */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #121212;
+    transition: 0.3s;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.sidebar-link:hover {
+    background-color: #0e0e0e;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+/* Grid container for images */
+.modal-content-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns of equal width */
+    gap: 10px; /* Adjust the gap between images */
+    padding: 20px; /* Padding around the grid */
+    max-width: 100 vw; /* Maximum width of the grid */
+    margin: auto; /* Center the grid in the modal */
+  }
+
+/* Style for cells that have click actions */
+.clickable-cell {
+    cursor: pointer; /* Changes the cursor to indicate clickability */
+    background-color: rgba(0, 128, 0, 0.3); /* Semi-transparent green background */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+.clickable-cell:hover {
+    background-color: rgba(0, 128, 0, 0.9); /* Slightly darker green on hover */
+}  
+
+.image-container {
+position: relative;
+text-align: center; /* Center-align the text if desired */
+}
+
+.modal-content {
+  width: 100%; /* Each image takes full width of its column */
+  height: auto; /* Maintain aspect ratio */
+  /* display: block; */
+}
+
+.image-title {
+    position: absolute;
+    bottom: 0; /* Position at the bottom of the container */
+    left: 0; /* Align to the left */
+    width: 100%; /* Ensure it spans the width of the container */
+    color: white; /* Text color */
+    padding: 15px; /* Padding for the text */
+  }
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+/* Setup modal */
+
+.modal-setup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+
+.modal-content-setup {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .image-upload-container {
+    /* Existing styles... */
+    transition: background-color 0.3s, border 0.3s; /* Smooth transition for visual feedback */
+  }
+  
+  .drag-over {
+    background-color: #f0f0f0; /* Light gray background for example */
+    border: 2px dashed #009688; /* Dashed border */
+    /* Other styles to indicate drag-over, like changing opacity */
+  }
+  
+
+/* Grid */
+
+  .grid-cell {
+    border: 0.25px solid rgba(230, 230, 230, 0.05); /* Semi-transparent white border */
+    cursor: pointer;
+
+    width: 100%; /* Each cell takes full width of its column */
+    height: 100%; /* Each cell takes full height of its row */
+    /* border: 1px solid #ddd; */
+  }
+
+  #dot {
+    width: 10px; /* Size of the dot */
+    height: 10px; /* Size of the dot */
+    background-color: red; /* Color of the dot */
+    border-radius: 50%; /* Makes the dot circular */
+    /* Adjust these to position the dot where you want it */
+    /* These should match the coords attribute in your <area> element */
+  }  
+
+  #mainContainer {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the children horizontally */
+    align-items: center; /* Center the children vertically */
+  }
+  
+  .paddingDiv {
+    flex-grow: 1; /* Allows the padding divs to take up available space */
+  }
+  
+  #mapContainer {
+    display: inline-block; /* Container width is as wide as its content */
+    position: relative;
+    height: 100vh;
+  }
+  
+  #mapImage {
+    display: block;
+    margin: auto;
+    height: 100vh;
+    width: auto; /* Image maintains its original width */
+  }
+  
+  #gridOverlay {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr); /* 10 columns */
+    grid-template-rows: repeat(15, 1fr); /* 10 rows */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

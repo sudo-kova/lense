@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>CS2 Nades</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+     
+
+        <div class="left-icons">
+        
+           <div class="hamburger">
+            <svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+             <path d="M3 12H21" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+             <path d="M3 6H21" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+             <path d="M3 18H21" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+            </svg>
+           </div>
+        </div>
+
+       <h1>chaoticS Nades</h1>
+
+       <div class="right-icons">
+       </div>
+
+    </header>
+
+
+    <div id="sidebar" class="sidebar">
+
+        <a href="javascript:void(0)" class="closebtn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+    
+        <!-- <span class="icon">&#x1F4C8;</span> -->
+        <a href="index_mirage.html" id="miragelink" onclick = "changeMap('mirage')" class="sidebar-link">mirage</a>
+        <a href="index_vertigo.html" id="vertigolink" class="sidebar-link">vertigo</a>
+        <a href="index_inferno.html" id="infernolink" class="sidebar-link">inferno</a>
+
+        <!-- <a href="#" id="overpasslink" class="sidebar-link">overpass</a>
+        <!-- <a href="#" id="vertigolink" class="sidebar-link">vertigo</a> -->
+        <a href="#" id="ancientlink" class="sidebar-link">ancient</a>
+        
+        <a href="#" id ="nukelink" class="sidebar-link">nuke</a>
+        <a href="#" id = "anubislink" class="sidebar-link">anubis</a> -->
+        <!-- More sidebar links here -->
+    </div>
+
+
+    <div id="mainContainer">
+    
+        <div class="paddingDiv"></div> <!-- Left padding div -->
+
+        <div id="mapContainer" style="position: relative;">
+            <img src="mirage.png" alt="Map" id="mapImage">
+            <div id="gridOverlay"></div>
+        </div>
+
+        <div class="paddingDiv"></div> <!-- Right padding div -->
+
+    </div>
+
+    <div id="imageModal" class="modal">
+
+        <span class="close" onclick="document.getElementById('imageModal').style.display='none'">&times;</span>
+        
+        <div class="modal-content-container">
+
+        <!-- create image-containers for specific Modal using javascript -->
+          <div class="image-container">
+            <img class="modal-content" id="image1">
+            <div class="image-title" id = "text1">God Spot</div>
+          </div>
+
+        </div>
+
+    </div>
+      
+
+<!-- switching js files seems to work in incognito, when there are separate html files -->
+
+    <script type="module" src="script.js"></script>
+    <!-- <script type="module" src="custom.js"></script> -->
+    <script type="module" src="mirage.js"></script>
+    <!-- <script type="module" src="vertigo.js"></script> -->
+
+</body>
+
+</html>

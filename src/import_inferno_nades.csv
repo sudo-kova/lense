@@ -1,0 +1,59 @@
+parent_folder,filename,cell,text
+inferno_nades,inferno_nades/smoke_coffin_from_mid_spot.png,9-8,Smoke Coffins from mid
+inferno_nades,inferno_nades/smoke_coffin_from_mid_lineup.png,9-8,Align lower right window with wood and wall Jump Throw
+inferno_nades,inferno_nades/fountain_spot.png,3-7,Smoke Mid from fountain
+inferno_nades,inferno_nades/smoke_mid_from_fountain_lineup.png,3-7,Jump Throw
+inferno_nades,inferno_nades/fountain_spot.png,3-7,Molly Top Banana from fountain
+inferno_nades,inferno_nades/molly_top_banana_from_fountain_lineup.png,3-7,Jump Throw
+inferno_nades,inferno_nades/smoke_moto_from_arch_spot.png,7-11,Smoke Moto from arch
+inferno_nades,inferno_nades/smoke_moto_from_arch_lineup.png,7-11,Throw
+inferno_nades,inferno_nades/molly_mini_pit_spot.png,7-12,Molly Mini-Pit from arch
+inferno_nades,inferno_nades/molly_mini_pit_lineup.png,7-12,On top of red box Jump Throw
+inferno_nades,inferno_nades/molly_mini_pit_spot.png,7-12,Molly Pit from arch
+inferno_nades,inferno_nades/molly_pit_lineup.png,7-12,On top of red box Jump Throw
+inferno_nades,inferno_nades/smoke_top_banana_from_long_spot.png,8-10,Smoke Top Banana from long
+inferno_nades,inferno_nades/smoke_top_banana_from_long_lineup.png,8-10,Throw
+inferno_nades,inferno_nades/smoke_bracket_from_spawn_spot.png,9-3,Smoke left bracket from spawn
+inferno_nades,inferno_nades/smoke_bracket_from_spawn_lineup.png,9-3,Jump Throw
+inferno_nades,inferno_nades/smoke_right_bracket_from_spawn_spot.png,10-3,Smoke right bracket from spawn
+inferno_nades,inferno_nades/smoke_right_bracket_from_spawn_lineup.png,10-3,Shift W + Jump Throw at green line
+inferno_nades,inferno_nades/front_of_halfwall_spot.png,6-7,Smoke Coffin
+inferno_nades,inferno_nades/smoke_coffin_from_halfwall_lineup.png,6-7,Jump Throw
+inferno_nades,inferno_nades/front_of_halfwall_spot.png,6-7,Molly infront of coffin smoke
+inferno_nades,inferno_nades/molly_coffin_from_halfwall_lineup.png,6-7,Jump Throw
+inferno_nades,inferno_nades/chair_ct_spawn.png,5-12,Smoke bottom banana from ct spawn
+inferno_nades,inferno_nades/smoke_bottom_banana_from_ct_spawn.png,5-12,A + Jump Throw
+inferno_nades,inferno_nades/back_ct_spawn.png,5-13,Smoke T-Stairs from ct spawn
+inferno_nades,inferno_nades/smoke_t_steps.png,5-13,Running Jump Throw at green line
+inferno_nades,inferno_nades/b_wall_spot.png,4-8,Molly Deep Banana safe
+inferno_nades,inferno_nades/deep_banana_molly_safe.png,4-8,Jump Throw
+inferno_nades,inferno_nades/smoke_right_bracket_from_spawn_spot.png,10-3,Smoke CT
+inferno_nades,inferno_nades/smoke_ct_spawn.png,10-3, W + Jump Throw at antenna
+inferno_nades,inferno_nades/rail_corner_spot.png,10-4,Smoke Coffin
+inferno_nades,inferno_nades/smoke_coffin_corner_spot.png,10-4, 1 Step + Jump Throw
+inferno_nades,inferno_nades/ct_spawn_looking.png,5-13,Smoke Mid from CT
+inferno_nades,inferno_nades/smoke_mid_from_spawn.png,5-13,Jump Throw
+inferno_nades,inferno_nades/a_default_spot.png,11-12,Smoke Moto from Default
+inferno_nades,inferno_nades/smoke_moto_from_default.png,11-12,Align TENUTA in view and Throw
+inferno_nades,inferno_nades/top_first_orange_spot.png,4-7,Molly infront of halfwall from first oranges
+inferno_nades,inferno_nades/molly_infront_of_halfwall_from_first_orange.png,4-7,Throw
+inferno_nades,inferno_nades/top_first_orange_spot.png,4-7,Smoke behind halfwall from first oranges
+inferno_nades,inferno_nades/smoke_behind_halfway_from_first_orange.png,4-7,Throw
+inferno_nades,inferno_nades/second_mid_under_window.png,10-8,Smoke right bracket
+inferno_nades,inferno_nades/smoke_right_side_bracket_lineup.png,10-8,Throw
+inferno_nades,inferno_nades/second_mid_door_spot.png,12-7,Smoke right bracket from 2nd mid
+inferno_nades,inferno_nades/smoke_right_bracket_from_second_mid_door_lineup.png,12-7,Jump Throw
+inferno_nades,inferno_nades/t_steps_wall.png,9-6,Smoke CT from T steps
+inferno_nades,inferno_nades/smoke_ct_from_t_steps.png,9-6,Jump Throw
+inferno_nades,inferno_nades/midwall_spot.png,10-9,Smoke Moto from Mid
+inferno_nades,inferno_nades/smoke_moto_from_mid.png,10-9,Throw
+inferno_nades,inferno_nades/top_corner_coffin_spot.png,2-7,Smoke Deep Banana from coffin
+inferno_nades,inferno_nades/smoke_deep_banana_from_coffin.png,2-7,Throw
+inferno_nades,inferno_nades/top_corner_coffin_spot.png,2-7,Molly behind halfwall from coffin
+inferno_nades,inferno_nades/molly_behind_halfwall_from_coffin.png,2-7,Throw
+inferno_nades,inferno_nades/long_spot_wall.png,7-12,Molly A Corner
+inferno_nades,inferno_nades/molly_a_corner_from_long.png,7-12,Throw
+inferno_nades,inferno_nades/molly_dark_spot.png,3-9,Molly Dark behind smoke
+inferno_nades,inferno_nades/molly_dark_lineup.png,3-9,Lineup then strafe to left wall and throw
+inferno_nades,inferno_nades/smoke_behind_halfwall_from_couch_spot.png,3-12,Smoke behind halfwall from couch in CT Spawn
+inferno_nades,inferno_nades/smoke_behind_halfwall_from_couch_lineup.png,3-12,Jump Throw
