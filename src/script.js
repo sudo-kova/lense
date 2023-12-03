@@ -157,3 +157,29 @@ document.querySelector('.closebtn').addEventListener('click', function() {
 //     });
   
 // });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var magnifier = document.getElementById('magnifier');
+    var img = document.getElementById('image1');
+
+    img.addEventListener('mousemove', function(e) {
+        magnifier.style.display = 'block';
+        magnifier.style.left = e.pageX - 50 + 'px';
+        magnifier.style.top = e.pageY - 50 + 'px';
+
+        // Calculate the position of the cursor over the image
+        var rect = img.getBoundingClientRect();
+        var x = e.clientX - rect.left;
+        var y = e.clientY - rect.top;
+
+        // Set the background of the magnifier
+        magnifier.style.backgroundImage = "url('" + img.src + "')";
+        magnifier.style.backgroundRepeat = 'no-repeat';
+        magnifier.style.backgroundSize = (img.width * 2) + 'px ' + (img.height * 2) + 'px';
+        magnifier.style.backgroundPosition = '-' + (x * 2) + 'px -' + (y * 2) + 'px';
+    });
+
+    img.addEventListener('mouseleave', function() {
+        magnifier.style.display = 'none';
+    });
+});

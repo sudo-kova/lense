@@ -1,0 +1,41 @@
+parent_folder,filename,cell,text
+nuke_nades,nuke_nades/spot_heaven_corner.png,6-9,Flash A Site from Heaven Corner
+nuke_nades,nuke_nades/flash_a_site_from_heaven_corner.png,6-9,Throw
+nuke_nades,nuke_nades/spot_heaven_corner.png,6-9,Molly A Default from Heaven Corner
+nuke_nades,nuke_nades/moly_a_default_from_heaven_corner.png,6-9,Throw
+nuke_nades,nuke_nades/spot_outside_hut.png,8-8,Flash Vent from Outside Hut
+nuke_nades,nuke_nades/flash_vent_from_outside_hut.png,8-8,Jump Throw
+nuke_nades,nuke_nades/spot_t_roof_heat_1.png,7-7,Flash A Site from T Roof
+nuke_nades,nuke_nades/flash_a_site_from_t_roof.png,7-7,Jump Throw
+nuke_nades,nuke_nades/spot_lobby_corner.png,8-7,Flash Hut from Lobby
+nuke_nades,nuke_nades/flash_hut_from_lobby.png,8-7,Throw
+nuke_nades,nuke_nades/spot_ramp.png,5-8,Nade Trophy from Ramp
+nuke_nades,nuke_nades/nade_trophy_from_ramp.png,5-8,Running Throw at Green Line
+nuke_nades,nuke_nades/spot_outside_mini.png,9-9,Nade Marshmallow from Outside Mini
+nuke_nades,nuke_nades/nade_marsh_from_outside_mini.png,9-9,Throw
+nuke_nades,nuke_nades/spot_under_silo.png,10-7,Nade Redbox from Under Silo
+nuke_nades,nuke_nades/nade_redbox_from_under_silo.png,10-7,Throw
+nuke_nades,nuke_nades/spot_fence.png,9-5,Smoke Outside Far from Fence
+nuke_nades,nuke_nades/smoke_outside_far_from_fence.png,9-5,Jump Throw
+nuke_nades,nuke_nades/spot_fence.png,9-5,Smoke Outside Close from Fence
+nuke_nades,nuke_nades/smoke_outside_close_from_fence.png,9-5,Jump Throw
+nuke_nades,nuke_nades/spot_roof_cooling.png,6-6,Smoke Mini from Roof Cooling
+nuke_nades,nuke_nades/smoke_mini_jump_throw_from_roof_cooling.png,6-6,Jump Throw
+nuke_nades,nuke_nades/spot_roof_cooling.png,6-6,Flash A Site from Roof Cooling
+nuke_nades,nuke_nades/flash_a_site_from_t_roof_cooling.png,6-6,Throw
+nuke_nades,nuke_nades/spot_outside_of_ct.png,8-10,Molly A Site from Outside of CT
+nuke_nades,nuke_nades/molly_outside_from_outside_of_ct.png,8-10,Aim at Cornerstone then Shift + Jump Throw at end of ramp
+nuke_nades,nuke_nades/t_roof_edge.png,7-7,Molly Top of Hut from Roof
+nuke_nades,nuke_nades/molly_top_of_hut_fromt_roof.png,7-7,Running Throw release at end of roof detail
+nuke_nades,nuke_nades/spot_lobby.png,7-7,Flash Hut from Lobby
+nuke_nades,nuke_nades/flash_running_throw_hut_from_lobby.png,7-7,Running Throw
+nuke_nades,nuke_nades/heaven_spot.png,6-9,Molly Squeaky from Heaven
+nuke_nades,nuke_nades/molly_squeak_from_heaven.png,6-9,Throw
+nuke_nades,nuke_nades/spot_heaven_back_corner.png,6-9,Molly Hut from Heaven back corner
+nuke_nades,nuke_nades/molly_hut_from_heaven_back_corner.png,6-9,Throw
+nuke_nades,nuke_nades/spot_trophy_logo.png,6-7,Smoke Ramp from Trophy
+nuke_nades,nuke_nades/smoke_ramp_from_trophy.png,6-7,Running Throw
+nuke_nades,nuke_nades/spot_yellow_pole.png,8-3,Big Smoke Mini from Yellow Pole (T-Spawn)
+nuke_nades,nuke_nades/smoke_mini_big_from_yellow_pole.png,8-3,Jump Throw
+nuke_nades,nuke_nades/spot_tspawn_wall.png,7-5,Smoke Vent from wall (T Spawn)
+nuke_nades,nuke_nades/smoke_vent_from_tspawn.png,7-5,Jump Throw

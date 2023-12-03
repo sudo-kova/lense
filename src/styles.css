@@ -126,7 +126,8 @@ text-align: center; /* Center-align the text if desired */
     bottom: 0; /* Position at the bottom of the container */
     left: 0; /* Align to the left */
     width: 100%; /* Ensure it spans the width of the container */
-    color: white; /* Text color */
+    color: white; /* Text color*/
+    background-color: #0000004a; /* transparency background */
     padding: 15px; /* Padding for the text */
   }
 
@@ -228,4 +229,32 @@ text-align: center; /* Center-align the text if desired */
     width: 100%;
     height: 100%;
   }
+
+
+/* Zoom for image container */
+#magnifier {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: crosshair;
+  width: 200px; /* Adjust size as needed */
+  height: 200px; /* Adjust size as needed */
+  overflow: hidden;
+  display: none;
+  pointer-events: none; /* Prevents the magnifier from interfering with mouse events */
+  z-index: 1000; /* Adjust as necessary */
+
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.4), rgba(255,255,255,0));
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease, transform 0.2s ease;
+
+
+}
+
+
+/* The zoom effect */
+.image {
+    display: block;
+    width: 100%;
+}
   
