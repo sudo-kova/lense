@@ -8,3 +8,4 @@ Lense is a customizable quick reference guide for nade lineups in CS2. Each line
 * Cells that have lineups have a green accent
 * Hovering over the green accent emphasizes it
 * Lineups open in Modals
+* Hovering over the images activates the magnifier to enhance clarity
