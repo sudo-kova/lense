@@ -4,7 +4,7 @@ Lense is a customizable quick reference guide for nade lineups in CS2. Each line
 
 ## Key Features
 * The server is local and is not exposed to the internet, Lens relies on Python's HTTP web server
-* Each map is divided into a 15 x 14 grid. Lineups are assigned to a "cell" in the grid.
+* Each map is divided into a 15 x 14 grid. Lineups are assigned to a "cell" in the grid corresponding to where they are thrown from, not where they land.
 * Cells that have lineups have a green accent
 * Hovering over the green accent emphasizes it
 * Lineups open in Modals
